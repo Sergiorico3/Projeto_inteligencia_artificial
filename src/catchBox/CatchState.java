@@ -11,6 +11,10 @@ import java.util.Arrays;
 public class CatchState extends State implements Cloneable {
     //TODO this class might require the definition of additional methods and/or attributes
 
+    private final Cell[][] grid;
+
+    private Cell cell;
+
     protected int[][] matrix;
 
     public CatchState(int[][] matrix) {
@@ -23,27 +27,50 @@ public class CatchState extends State implements Cloneable {
         // TODO
         fireUpdatedEnvironment();
 
-        throw new NotImplementedException(); // delete after implementing
+        Cell nextCell = null;
+
+        if (action == moveUp() && canMoveUp(cell)) {
+            nextCell = getUpCell(cell);
+        } else if (action == moveLeft() && canMoveLeft(cell)) {
+            nextCell = getLeftCell(cell);
+        } else if (action == moveDown() && canMoveDown(cell)) {
+            nextCell = getDownCell(cell);
+        } else if (action == moveRight() && canMoveRight(cell)) {
+            nextCell = getRightCell(cell);
+        }
+
     }
 
-    public boolean canMoveUp() {
-        //TODO
-        throw new NotImplementedException();
+    public boolean canMoveUp(Cell cell) {
+        return getUpCell(cell) != null;
     }
 
-    public boolean canMoveRight() {
-        //TODO
-        throw new NotImplementedException();
+    private Cell getUpCell(Cell cell) {
+        return (cell.getLine() > 0)? grid[cell.getLine() - 1][cell.getColumn()] : null;
     }
 
-    public boolean canMoveDown() {
-        //TODO
-        throw new NotImplementedException();
+    public boolean canMoveRight(Cell cell) {
+        return getRightCell(cell) != null;
     }
 
-    public boolean canMoveLeft() {
-        //TODO
-        throw new NotImplementedException();
+    private Cell getRightCell(Cell cell) {
+        return (cell.getColumn() < grid[0].length - 1)? grid[cell.getLine()][cell.getColumn() + 1] : null;
+    }
+
+    public boolean canMoveDown(Cell cell) {
+        return getDownCell(cell) != null;
+    }
+
+    private Cell getDownCell(Cell cell) {
+        return (cell.getLine() < grid.length - 1)? grid[cell.getLine() + 1][cell.getColumn()] : null;
+    }
+
+    public boolean canMoveLeft(Cell cell) {
+        return getLeftCell(cell) != null;
+    }
+
+    private Cell getLeftCell(Cell cell) {
+        return (cell.getColumn() > 0)? grid[cell.getLine()][cell.getColumn() - 1] : null;
     }
 
     public void moveUp() {
