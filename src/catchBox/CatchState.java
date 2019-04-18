@@ -2,6 +2,7 @@ package catchBox;
 
 import agentSearch.Action;
 import agentSearch.State;
+import agentSearch.Step;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.awt.*;
@@ -11,11 +12,9 @@ import java.util.Arrays;
 public class CatchState extends State implements Cloneable {
     //TODO this class might require the definition of additional methods and/or attributes
 
-    private final Cell[][] grid;
-
-    private Cell cell;
 
     protected int[][] matrix;
+    private List<Step> steps;
 
     public CatchState(int[][] matrix) {
         //TODO
@@ -24,20 +23,7 @@ public class CatchState extends State implements Cloneable {
 
     public void executeAction(Action action) {
         action.execute(this);
-        // TODO
         fireUpdatedEnvironment();
-
-        Cell nextCell = null;
-
-        if (action == moveUp() && canMoveUp(cell)) {
-            nextCell = getUpCell(cell);
-        } else if (action == moveLeft() && canMoveLeft(cell)) {
-            nextCell = getLeftCell(cell);
-        } else if (action == moveDown() && canMoveDown(cell)) {
-            nextCell = getDownCell(cell);
-        } else if (action == moveRight() && canMoveRight(cell)) {
-            nextCell = getRightCell(cell);
-        }
 
     }
 
@@ -46,31 +32,24 @@ public class CatchState extends State implements Cloneable {
     }
 
     private Cell getUpCell(Cell cell) {
-        return (cell.getLine() > 0)? grid[cell.getLine() - 1][cell.getColumn()] : null;
     }
 
     public boolean canMoveRight(Cell cell) {
-        return getRightCell(cell) != null;
     }
 
     private Cell getRightCell(Cell cell) {
-        return (cell.getColumn() < grid[0].length - 1)? grid[cell.getLine()][cell.getColumn() + 1] : null;
     }
 
-    public boolean canMoveDown(Cell cell) {
-        return getDownCell(cell) != null;
+    public boolean canMoveDown(Cell cell){
     }
 
     private Cell getDownCell(Cell cell) {
-        return (cell.getLine() < grid.length - 1)? grid[cell.getLine() + 1][cell.getColumn()] : null;
     }
 
     public boolean canMoveLeft(Cell cell) {
-        return getLeftCell(cell) != null;
     }
 
     private Cell getLeftCell(Cell cell) {
-        return (cell.getColumn() > 0)? grid[cell.getLine()][cell.getColumn() - 1] : null;
     }
 
     public void moveUp() {
@@ -112,9 +91,8 @@ public class CatchState extends State implements Cloneable {
         throw new NotImplementedException();
     }
 
-    public int getSteps() {
-        //TODO
-        throw new NotImplementedException();
+    public List<Step> getSteps() {
+        return steps;
     }
 
     public int getSize() {
@@ -171,8 +149,7 @@ public class CatchState extends State implements Cloneable {
 
     @Override
     public CatchState clone() {
-        //TODO
-        throw new NotImplementedException();
+        return new CatchState(matrix);
     }
 
     //Listeners
