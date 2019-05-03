@@ -7,8 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac04bfec-7f60-42eb-9fae-b904b9702de2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/agentSearch/Step.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agentSearch/Step.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/catchBox/CatchState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/CatchState.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,47 +27,10 @@
       <file leaf-file-name="CatchState.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/catchBox/CatchState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1535">
-              <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+            <state relative-caret-position="342">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#2440#2441#0" expanded="true" />
-                <element signature="e#2468#2469#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2590#2591#0" expanded="true" />
-                <element signature="e#3453#3454#0" expanded="true" />
-                <element signature="e#3517#3518#0" expanded="true" />
-                <element signature="e#3962#3963#0" expanded="true" />
-                <element signature="e#4000#4001#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Step.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agentSearch/Step.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-              <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +63,7 @@
       <file leaf-file-name="CatchProblemSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="266">
               <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -211,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/catchBox/CatchIndividual.java" />
         <option value="$PROJECT_DIR$/src/catchBox/CatchProblemForGA.java" />
         <option value="$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java" />
-        <option value="$PROJECT_DIR$/src/catchBox/HeuristicCatch.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Mutation3.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Recombination2.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Mutation2.java" />
@@ -222,8 +184,9 @@
         <option value="$PROJECT_DIR$/src/gui/PanelSimulation.java" />
         <option value="$PROJECT_DIR$/src/gui/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/agentSearch/Action.java" />
-        <option value="$PROJECT_DIR$/src/catchBox/CatchState.java" />
         <option value="$PROJECT_DIR$/src/agentSearch/Step.java" />
+        <option value="$PROJECT_DIR$/src/catchBox/HeuristicCatch.java" />
+        <option value="$PROJECT_DIR$/src/catchBox/CatchState.java" />
       </list>
     </option>
   </component>
@@ -247,6 +210,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="agentSearch" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="catchBox" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="ga" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,34 +333,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-              <item name="agentSearch" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-              <item name="catchBox" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-              <item name="ga" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,11 +475,12 @@
       <workItem from="1555442392478" duration="2622000" />
       <workItem from="1555599020178" duration="353000" />
       <workItem from="1555599510170" duration="3942000" />
+      <workItem from="1556892864684" duration="2180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9636000" />
+    <option name="totallyTimeSpent" value="11816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,9 +493,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32839838" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.53594774" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -543,7 +509,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info anchor="right" id="Database" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -551,7 +517,6 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29652998" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.537037" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -565,13 +530,13 @@
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.034179688" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20457605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.034179688" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="7" />
       <window_info anchor="right" id="Properties" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -580,20 +545,20 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19340974" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info id="Nl-Palette" order="3" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19340974" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.04037685" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.034179688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29652998" />
     </layout-to-restore>
   </component>
@@ -874,30 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/catchBox/CatchIndividual.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/catchBox/HeuristicCatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,42 +913,40 @@
         <state relative-caret-position="57">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
             <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catchBox/HeuristicCatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/catchBox/CatchState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1535">
-          <caret line="93" column="20" selection-start-line="93" selection-start-column="20" selection-end-line="93" selection-end-column="20" />
+        <state relative-caret-position="342">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
-            <element signature="e#2468#2469#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
-            <element signature="e#3453#3454#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-            <element signature="e#3962#3963#0" expanded="true" />
-            <element signature="e#4000#4001#0" expanded="true" />
           </folding>
         </state>
       </provider>

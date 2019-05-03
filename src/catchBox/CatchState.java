@@ -2,7 +2,6 @@ package catchBox;
 
 import agentSearch.Action;
 import agentSearch.State;
-import agentSearch.Step;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.awt.*;
@@ -14,9 +13,10 @@ public class CatchState extends State implements Cloneable {
 
 
     protected int[][] matrix;
-    private List<Step> steps;
+    protected int lineCatch;
+    protected int columnCatch;
 
-    public CatchState(int[][] matrix) {
+    public CatchState(int[][] matrix, int lineCatch, int columnCatch) {
         //TODO
         throw new NotImplementedException();
     }
@@ -27,49 +27,76 @@ public class CatchState extends State implements Cloneable {
 
     }
 
-    public boolean canMoveUp(Cell cell) {
-        return getUpCell(cell) != null;
+    public boolean canMoveUp() {
+        if(lineCatch==0){
+            return false;
+        }
+
+        if(matrix[lineCatch+1][columnCatch] == Properties.WALL){
+            return false;
+        }
+
+        return true;
     }
 
-    private Cell getUpCell(Cell cell) {
+    public boolean canMoveLeft() {
+        if(columnCatch==0){
+            return false;
+        }
+
+        if(matrix[lineCatch][columnCatch-1] == Properties.WALL){
+            return false;
+        }
+
+        return true;
     }
 
-    public boolean canMoveRight(Cell cell) {
+    public boolean canMoveRight() {
+        if(columnCatch== matrix.length-1){
+            return false;
+        }
+
+        if(matrix[lineCatch][columnCatch+1] == Properties.WALL){
+            return false;
+        }
+
+        return true;
     }
 
-    private Cell getRightCell(Cell cell) {
+
+    public boolean canMoveDown(){
+        if(lineCatch==matrix.length-1){
+            return false;
+        }
+
+        if(matrix[lineCatch-1][columnCatch] == Properties.WALL){
+            return false;
+        }
+
+        return true;
     }
 
-    public boolean canMoveDown(Cell cell){
-    }
 
-    private Cell getDownCell(Cell cell) {
-    }
 
-    public boolean canMoveLeft(Cell cell) {
-    }
-
-    private Cell getLeftCell(Cell cell) {
-    }
 
     public void moveUp() {
-        //TODO
-        throw new NotImplementedException();
+        matrix[lineCatch][columnCatch]= Properties.EMPTY;
+        matrix[--lineCatch][columnCatch]= Properties.CATCH;
     }
 
     public void moveRight() {
-        //TODO
-        throw new NotImplementedException();
+        matrix[lineCatch][columnCatch]= Properties.EMPTY;
+        matrix[lineCatch][++columnCatch]= Properties.CATCH;
     }
 
     public void moveDown() {
-        //TODO
-        throw new NotImplementedException();
+        matrix[lineCatch][columnCatch]= Properties.EMPTY;
+        matrix[++lineCatch][columnCatch]= Properties.CATCH;
     }
 
     public void moveLeft() {
-        //TODO
-        throw new NotImplementedException();
+        matrix[lineCatch][columnCatch]= Properties.EMPTY;
+        matrix[lineCatch][--columnCatch]= Properties.CATCH;
     }
 
     public int getNumBox() {
@@ -89,10 +116,6 @@ public class CatchState extends State implements Cloneable {
     public void setGoal(int line, int column) {
         //TODO
         throw new NotImplementedException();
-    }
-
-    public List<Step> getSteps() {
-        return steps;
     }
 
     public int getSize() {
