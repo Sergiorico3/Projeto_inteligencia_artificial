@@ -2,7 +2,6 @@ package catchBox;
 
 import agentSearch.Action;
 import agentSearch.State;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -16,9 +15,16 @@ public class CatchState extends State implements Cloneable {
     protected int lineCatch;
     protected int columnCatch;
 
-    public CatchState(int[][] matrix, int lineCatch, int columnCatch) {
-        //TODO
-        throw new NotImplementedException();
+    public CatchState(int[][] matrix) {
+        this.matrix = new int[matrix.length][matrix.length];
+        this.lineCatch= lineCatch;
+        this.columnCatch=columnCatch;
+
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                this.matrix[i][j] = matrix[i][j];
+            }
+        }
     }
 
     public void executeAction(Action action) {
@@ -76,9 +82,6 @@ public class CatchState extends State implements Cloneable {
         return true;
     }
 
-
-
-
     public void moveUp() {
         matrix[lineCatch][columnCatch]= Properties.EMPTY;
         matrix[--lineCatch][columnCatch]= Properties.CATCH;
@@ -100,13 +103,16 @@ public class CatchState extends State implements Cloneable {
     }
 
     public int getNumBox() {
+        return 0;
         //TODO
-        throw new NotImplementedException();
     }
 
     public void setCellCatch(int line, int column) {
-        //TODO
-        throw new NotImplementedException();
+        matrix[lineCatch][columnCatch] = Properties.EMPTY;
+
+        matrix[line][column] = Properties.CATCH;
+
+
     }
 
     public int[][] getMatrix() {
@@ -115,7 +121,12 @@ public class CatchState extends State implements Cloneable {
 
     public void setGoal(int line, int column) {
         //TODO
-        throw new NotImplementedException();
+    }
+
+    public int getSteps(){
+        return 0;
+
+        //TODO
     }
 
     public int getSize() {
@@ -194,4 +205,7 @@ public class CatchState extends State implements Cloneable {
         }
     }
 
+    public double computeDistance(Cell goalPosition) {
+        return Math.abs(goalPosition.getLine() - lineCatch) + Math.abs(goalPosition.getColumn()- columnCatch);
+    }
 }

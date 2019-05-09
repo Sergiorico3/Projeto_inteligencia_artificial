@@ -1,31 +1,33 @@
 package catchBox;
 
+import ga.GeneticAlgorithm;
 import ga.Problem;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.util.LinkedList;
+import java.util.Random;
 
 public class CatchProblemForGA implements Problem<CatchIndividual> {
     //TODO this class might require the definition of additional methods and/or attributes
+    protected CatchProblemForGA problem;
+    protected int size;
 
     public CatchProblemForGA(
             LinkedList<Cell> cellsBoxes,
             LinkedList<Pair> pairs,
             Cell cellCatch,
             Cell door) {
-        //TODO
-        throw new NotImplementedException();
+        super();
+
     }
 
     @Override
     public CatchIndividual getNewIndividual() {
-        //TODO
-        throw new NotImplementedException();
+        return new CatchIndividual(problem, size);
     }
 
     @Override
     public String toString() {
         //TODO
-        throw new NotImplementedException();
+        return "Problema: " + problem + "\n";
     }
 }
