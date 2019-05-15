@@ -14,6 +14,8 @@ public class CatchState extends State implements Cloneable {
     protected int[][] matrix;
     protected int lineCatch;
     protected int columnCatch;
+    private int lineGoal;
+    private int columnGoal;
 
     public CatchState(int[][] matrix) {
         this.matrix = new int[matrix.length][matrix.length];
@@ -103,11 +105,15 @@ public class CatchState extends State implements Cloneable {
     }
 
     public int getNumBox() {
-        return 0;
-        //TODO
+        // TODO
+        return matrix[2].length;
     }
 
     public void setCellCatch(int line, int column) {
+        this.lineGoal = line;
+        this.columnGoal = column;
+
+
         matrix[lineCatch][columnCatch] = Properties.EMPTY;
 
         matrix[line][column] = Properties.CATCH;
@@ -121,6 +127,8 @@ public class CatchState extends State implements Cloneable {
 
     public void setGoal(int line, int column) {
         //TODO
+        this.lineGoal = line;
+        this.columnGoal = column;
     }
 
     public int getSteps(){

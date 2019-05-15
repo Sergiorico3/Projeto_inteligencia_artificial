@@ -7,21 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac04bfec-7f60-42eb-9fae-b904b9702de2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catchBox/CatchIndividual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/CatchIndividual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catchBox/CatchProblemForGA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/CatchProblemForGA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/catchBox/CatchState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/CatchState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/catchBox/HeuristicCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/HeuristicCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/IntVectorIndividual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/IntVectorIndividual.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/Mutation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/geneticOperators/Mutation2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/Mutation3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/geneticOperators/Mutation3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/Recombination2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/geneticOperators/Recombination2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/Recombination3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/geneticOperators/Recombination3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/catchBox/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/Pair.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,72 +22,28 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ProjCatch$Main.coverage" NAME="Main Coverage Results" MODIFIED="1553186340335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CatchState.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/catchBox/CatchState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="191" column="47" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="47" />
+            <state relative-caret-position="85">
+              <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2893#2894#0" expanded="true" />
-                <element signature="e#2922#2923#0" expanded="true" />
-                <element signature="e#3020#3021#0" expanded="true" />
-                <element signature="e#3056#3057#0" expanded="true" />
-                <element signature="e#3919#3920#0" expanded="true" />
-                <element signature="e#3983#3984#0" expanded="true" />
-                <element signature="e#4448#4449#0" expanded="true" />
-                <element signature="e#4493#4494#0" expanded="true" />
-                <element signature="e#4833#4834#0" expanded="true" />
-                <element signature="e#4868#4869#0" expanded="true" />
+                <element signature="e#965#1018#0" expanded="true" />
+                <element signature="e#965#1018#0" expanded="true" />
+                <element signature="e#1193#1248#0" expanded="true" />
+                <element signature="e#1193#1248#0" expanded="true" />
+                <element signature="e#1258#1350#0" expanded="true" />
+                <element signature="e#1258#1350#0" expanded="true" />
+                <element signature="e#1669#1736#0" expanded="true" />
+                <element signature="e#1669#1736#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CatchProblemForGA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/catchBox/CatchProblemForGA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeuristicCatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/catchBox/HeuristicCatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CatchProblemSearch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CatchIndividual.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/catchBox/CatchIndividual.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -112,7 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>System.out.ptin</find>
       <find>System.out.pti</find>
       <find>System.out.pt</find>
       <find>System.out.p</find>
@@ -142,6 +89,7 @@
       <find>catchstate</find>
       <find>step</find>
       <find>list</find>
+      <find>numBox</find>
     </findStrings>
     <replaceStrings>
       <replace>cellCatch</replace>
@@ -172,7 +120,6 @@
         <option value="$PROJECT_DIR$/src/experiments/ExperimentsFactory.java" />
         <option value="$PROJECT_DIR$/src/catchBox/CatchAIProblem.java" />
         <option value="$PROJECT_DIR$/src/catchBox/Cell.java" />
-        <option value="$PROJECT_DIR$/src/catchBox/Pair.java" />
         <option value="$PROJECT_DIR$/src/catchBox/Properties.java" />
         <option value="$PROJECT_DIR$/src/agentSearch/Solution.java" />
         <option value="$PROJECT_DIR$/src/agentSearch/Problem.java" />
@@ -197,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/agentSearch/Action.java" />
         <option value="$PROJECT_DIR$/src/agentSearch/Step.java" />
         <option value="$PROJECT_DIR$/src/catchBox/HeuristicCatch.java" />
-        <option value="$PROJECT_DIR$/src/catchBox/CatchState.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Mutation2.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Recombination2.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Mutation3.java" />
@@ -206,29 +152,59 @@
         <option value="$PROJECT_DIR$/src/catchBox/CatchIndividual.java" />
         <option value="$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java" />
         <option value="$PROJECT_DIR$/src/catchBox/CatchProblemForGA.java" />
+        <option value="$PROJECT_DIR$/src/catchBox/Pair.java" />
+        <option value="$PROJECT_DIR$/src/catchBox/CatchState.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="744" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="agentSearch" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="catchBox" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="ga" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="gui" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
+              <item name="gui" type="1f31426a:PackageElementNode" />
+              <item name="MainFrame.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -326,41 +302,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-              <item name="agentSearch" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-              <item name="catchBox" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="Projeto_inteligencia_artificial" type="58d84e3e:PackageViewProjectNode" />
-              <item name="ProjCatch" type="616d4139:PackageViewModuleNode" />
-              <item name="ga" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554655755326" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Inteligencia_Artificial/projeto_2017/Projeto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../New_SearchTODO/SearchTODO" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -399,80 +348,28 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <method />
     </configuration>
     <recent_temporary>
       <list>
@@ -496,11 +393,15 @@
       <workItem from="1555599510170" duration="3942000" />
       <workItem from="1556892864684" duration="2352000" />
       <workItem from="1557400248501" duration="5801000" />
+      <workItem from="1557418569104" duration="2042000" />
+      <workItem from="1557824562154" duration="154000" />
+      <workItem from="1557843311040" duration="78000" />
+      <workItem from="1557915599720" duration="7794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17789000" />
+    <option name="totallyTimeSpent" value="27857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -512,81 +413,104 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32839838" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.53594774" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2037037" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
-      <window_info anchor="right" id="Database" order="11" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.52427185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29652998" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
       <window_info id="Nl-Palette" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="6" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Maven" order="10" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2035139" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29652998" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32839838" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.329429" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.53594774" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.034179688" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="Database" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20457605" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.034179688" />
-      <window_info id="UI Designer" order="7" />
-      <window_info anchor="right" id="Properties" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info id="Nl-Palette" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="10" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19340974" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.04037685" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Nl-Palette" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20457605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29652998" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.04037685" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Properties" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.034179688" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
@@ -695,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/AStarSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/search/GraphSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-577">
@@ -723,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/search/SearchMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/statisticsGA/StatisticBestAverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -746,13 +656,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjCatch.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="191" column="52" selection-start-line="191" selection-start-column="52" selection-end-line="191" selection-end-column="52" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/PanelSimulation.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -780,13 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agentSearch/Agent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-893">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -868,26 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/catchBox/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="30" column="131" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agentSearch/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#133#134#0" expanded="true" />
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/Mutation2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -935,29 +811,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/catchBox/CatchState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="191" column="47" selection-start-line="191" selection-start-column="43" selection-end-line="191" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2893#2894#0" expanded="true" />
-            <element signature="e#2922#2923#0" expanded="true" />
-            <element signature="e#3020#3021#0" expanded="true" />
-            <element signature="e#3056#3057#0" expanded="true" />
-            <element signature="e#3919#3920#0" expanded="true" />
-            <element signature="e#3983#3984#0" expanded="true" />
-            <element signature="e#4448#4449#0" expanded="true" />
-            <element signature="e#4493#4494#0" expanded="true" />
-            <element signature="e#4833#4834#0" expanded="true" />
-            <element signature="e#4868#4869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/catchBox/CatchProblemForGA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="504">
           <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -967,7 +823,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/catchBox/HeuristicCatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="84">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="e#189#190#0" expanded="true" />
@@ -976,10 +832,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="277" column="58" selection-start-line="277" selection-start-column="58" selection-end-line="277" selection-end-column="58" />
+          <folding>
+            <element signature="e#10439#10487#1" expanded="true" />
+            <element signature="e#10464#10486#0" expanded="true" />
+            <element signature="e#10512#11090#0" expanded="true" />
+            <element signature="e#10517#10523#0" expanded="true" />
+            <element signature="e#10512#11090#0" expanded="true" />
+            <element signature="e#10563#10634#1" expanded="true" />
+            <element signature="e#10596#10624#0" expanded="true" />
+            <element signature="e#10677#10689#0" expanded="true" />
+            <element signature="e#10677#10699#0" expanded="true" />
+            <element signature="e#10701#10713#0" expanded="true" />
+            <element signature="e#10701#10725#0" expanded="true" />
+            <element signature="e#10775#10787#0" expanded="true" />
+            <element signature="e#10775#10797#0" expanded="true" />
+            <element signature="e#10799#10811#0" expanded="true" />
+            <element signature="e#10799#10823#0" expanded="true" />
+            <element signature="e#10854#10927#1" expanded="true" />
+            <element signature="e#10913#10925#0" expanded="true" />
+            <element signature="e#10956#11003#1" expanded="true" />
+            <element signature="e#11032#11061#0" expanded="true" />
+            <element signature="e#11043#11060#0" expanded="true" />
+            <element signature="e#11049#11060#0" expanded="true" />
+            <element signature="e#11032#11061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agentSearch/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/SearchMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/AStarSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catchBox/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+            <element signature="e#599#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agentSearch/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/catchBox/CatchProblemSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -988,8 +928,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/catchBox/CatchIndividual.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="357">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#677#716#1" expanded="true" />
+            <element signature="e#725#747#0" expanded="true" />
+            <element signature="e#725#747#0" expanded="true" />
+            <element signature="e#757#775#0" expanded="true" />
+            <element signature="e#757#775#0" expanded="true" />
+            <element signature="e#785#806#0" expanded="true" />
+            <element signature="e#795#805#0" expanded="true" />
+            <element signature="e#785#806#0" expanded="true" />
+            <element signature="e#816#913#0" expanded="true" />
+            <element signature="e#821#831#1" expanded="true" />
+            <element signature="e#816#913#0" expanded="true" />
+            <element signature="e#816#913#0" expanded="true" />
+            <element signature="e#816#913#0" expanded="true" />
+            <element signature="e#816#913#0" expanded="true" />
+            <element signature="e#870#902#0" expanded="true" />
+            <element signature="e#870#902#0" expanded="true" />
+            <element signature="e#870#902#0" expanded="true" />
+            <element signature="e#929#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/catchBox/CatchState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#965#1018#0" expanded="true" />
+            <element signature="e#965#1018#0" expanded="true" />
+            <element signature="e#1193#1248#0" expanded="true" />
+            <element signature="e#1193#1248#0" expanded="true" />
+            <element signature="e#1258#1350#0" expanded="true" />
+            <element signature="e#1258#1350#0" expanded="true" />
+            <element signature="e#1669#1736#0" expanded="true" />
+            <element signature="e#1669#1736#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,7 +986,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1056,7 +1033,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
