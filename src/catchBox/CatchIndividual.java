@@ -4,8 +4,8 @@ import ga.IntVectorIndividual;
 
 public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, CatchIndividual> {
 
-    public CatchIndividual(CatchProblemForGA problem, int size) {
-        super(problem, size);
+    public CatchIndividual(CatchProblemForGA problem, int size, double prob1s) {
+        super(problem, size, prob1s);
     }
 
     public CatchIndividual(CatchIndividual original) {

@@ -19,8 +19,8 @@ public class CatchState extends State implements Cloneable {
 
     public CatchState(int[][] matrix) {
         this.matrix = new int[matrix.length][matrix.length];
-        this.lineCatch= lineCatch;
-        this.columnCatch=columnCatch;
+        this.lineCatch= 1;
+        this.columnCatch=1;
 
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix.length; j++) {
