@@ -18,12 +18,12 @@ public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, Catc
         Cell cell2;
         int fitness=0;
 
-        cell1 = problem.cellCatch(genome[0]);
+        cell1 = problem.cellsBoxes.get(genome[0]);
 
-        fitness=getPairDistance(problem.cellCatch, problem.cellsBoxes[0]-1);
+        fitness=getPairDistance(problem.cellCatch, problem.cellsBoxes.get(genome[0] -1));
 
         for (int i = 0; i < problem.cellsBoxes.size() ; i++) {
-            cell2 = problem.cellCatch(genome[i+1]-1);
+            cell2 = problem.cellsBoxes.get(genome[i+1]-1);
 
             fitness += getPairDistance(cell1,cell2);
         }
