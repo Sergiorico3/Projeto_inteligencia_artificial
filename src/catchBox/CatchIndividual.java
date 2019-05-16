@@ -14,16 +14,22 @@ public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, Catc
 
     @Override
     public double computeFitness() {
-        /**
-        if (cell1 == p.cell1 && cell2 == p.cell2
-         || cell2==p.cell1 && cell1==p.cell2){
+        Cell cell1;
+        Cell cell2;
+        int fitness=0;
 
-         }
+        cell1 = problem.cellCatch(genome[0]);
 
-         **/
+        fitness=getPairDistance(problem.cellCatch, problem.cellsBoxes[0]-1);
 
-        //TODO
-        return 0;
+        for (int i = 0; i < problem.cellsBoxes.size() ; i++) {
+            cell2 = problem.cellCatch(genome[i+1]-1);
+
+            fitness += getPairDistance(cell1,cell2);
+        }
+
+
+        return fitness;
     }
 
     public int[] getGenome() {
@@ -41,6 +47,16 @@ public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, Catc
         }
         return sb.toString();
     }
+
+    public int getPairDistance(Cell cell1, Cell cell2) {
+        for (Pair pair : problem.getPairs()) {
+            if (pair.getCell1() == cell1 && pair.getCell2() == cell2 || cell2 == pair.getCell1() && cell1 == pair.getCell2()) {
+                return pair.getValue();
+            }
+        }
+        return -1;
+    }
+
 
     /**
      * @param i
