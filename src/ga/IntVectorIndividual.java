@@ -4,13 +4,18 @@ package ga;
 public abstract class IntVectorIndividual<P extends Problem, I extends IntVectorIndividual> extends Individual<P, I> {
     //TODO this class might require the definition of additional methods and/or attributes
 
+    public static final int ONE  = 1;
+    public static final int ZERO = 0;
+
     protected int[] genome;
 
-    public IntVectorIndividual(P problem, int size) {
+    public IntVectorIndividual(P problem, int size, double probls) {
         super(problem);
         genome = new int[size];
 
-        //TODO
+        for(int i = 0; i < genome.length; i++){
+         genome[i] = (GeneticAlgorithm.random.nextDouble() < probls) ? ONE : ZERO;
+        }
       }
 
     public IntVectorIndividual(IntVectorIndividual<P, I> original) {
