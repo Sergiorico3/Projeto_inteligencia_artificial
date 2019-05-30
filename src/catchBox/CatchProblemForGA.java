@@ -3,6 +3,7 @@ package catchBox;
 import ga.GeneticAlgorithm;
 import ga.Problem;
 
+import java.lang.reflect.Array;
 import java.util.LinkedList;
 import java.util.Random;
 
@@ -36,5 +37,17 @@ public class CatchProblemForGA implements Problem<CatchIndividual> {
     public String toString() {
         //TODO
         return "Problema: " + problem + "\n";
+    }
+
+    public Cell getCellCatch() {
+    return this.cellCatch;
+    }
+
+    public LinkedList getCellBoxes() {
+        return this.cellsBoxes;
+    }
+
+    public Cell getCellDoor() {
+        return this.door;
     }
 }

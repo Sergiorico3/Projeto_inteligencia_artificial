@@ -1,6 +1,6 @@
 package ga;
 
-public abstract class Individual<P extends Problem, I extends Individual> implements Comparable<I>{
+public abstract class Individual<P extends Problem, I extends Individual> implements Comparable<I>{     //tempo que o individuo demorou a ser atualizado
 
     protected double fitness;
     protected P problem;

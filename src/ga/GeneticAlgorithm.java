@@ -27,7 +27,7 @@ public class GeneticAlgorithm<I extends Individual, P extends Problem<I>> {
             SelectionMethod<I, P> selection,
             Recombination<I, P> recombination,
             Mutation<I, P> mutation,
-            Random rand) {
+            Random rand) {              //passar a seed também?
 
         random = rand;
         this.populationSize = populationSize;
@@ -57,7 +57,7 @@ public class GeneticAlgorithm<I extends Individual, P extends Problem<I>> {
         return bestInRun;
     }
 
-    private void computeBestInRun (I bestInGen){
+    private void computeBestInRun (I bestInGen){                    //calcular o tempo final
         if (bestInGen.compareTo(bestInRun) > 0) {
             bestInRun = (I) bestInGen.clone();
         }
