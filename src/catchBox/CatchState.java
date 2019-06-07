@@ -14,6 +14,7 @@ public class CatchState extends State implements Cloneable {
     protected int[][] matrix;
     protected int lineCatch;
     protected int columnCatch;
+    private int steps;
     private int lineDoor;
     private int columnDoor;
 
@@ -39,22 +40,22 @@ public class CatchState extends State implements Cloneable {
 
     public void executeAction(Action action) {
         action.execute(this);
+        steps++;
         fireUpdatedEnvironment();
 
     }
 
-    public boolean canMoveUp() {
+    public boolean canMoveUp(){
         if(lineCatch==0){
             return false;
         }
 
-        if(matrix[lineCatch+1][columnCatch] == Properties.WALL){
+        if(matrix[lineCatch-1][columnCatch] == Properties.WALL){
             return false;
         }
 
         return true;
     }
-
     public boolean canMoveLeft() {
         if(columnCatch==0){
             return false;
@@ -85,7 +86,7 @@ public class CatchState extends State implements Cloneable {
             return false;
         }
 
-        if(matrix[lineCatch-1][columnCatch] == Properties.WALL){
+        if(matrix[lineCatch+1][columnCatch] == Properties.WALL){
             return false;
         }
 
@@ -114,15 +115,14 @@ public class CatchState extends State implements Cloneable {
 
     public int getNumBox() {
         // TODO
-        return matrix[2].length;
+        return 0;
     }
 
     public void setCellCatch(int line, int column) {
-        this.lineDoor = line;
-        this.columnDoor = column;
-
-
         matrix[lineCatch][columnCatch] = Properties.EMPTY;
+
+        this.lineCatch = line;
+        this.columnCatch = column;
 
         matrix[line][column] = Properties.CATCH;
 
@@ -133,14 +133,10 @@ public class CatchState extends State implements Cloneable {
         return matrix;
     }
 
-    public void setGoal(int line, int column) {
-        //TODO
-        this.lineDoor = line;
-        this.columnDoor = column;
-    }
+
 
     public int getSteps(){
-        return 0;
+        return steps;
 
         //TODO
     }

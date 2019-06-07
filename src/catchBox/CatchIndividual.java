@@ -4,8 +4,8 @@ import ga.IntVectorIndividual;
 
 public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, CatchIndividual> {
 
-    public CatchIndividual(CatchProblemForGA problem, int size, double prob1s) {
-        super(problem, size, prob1s);
+    public CatchIndividual(CatchProblemForGA problem, int size) {
+        super(problem, size);
     }
 
     public CatchIndividual(CatchIndividual original) {
@@ -16,7 +16,7 @@ public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, Catc
     public double computeFitness() {
         Cell cell1;
         Cell cell2;
-        int fitness=0;
+         fitness=0;
 
         cell1 = problem.cellsBoxes.get(genome[0]);
 

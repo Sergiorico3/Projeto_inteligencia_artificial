@@ -11,12 +11,11 @@ public class CatchProblemSearch<S extends CatchState> extends Problem<S> {
     //TODO this class might require the definition of additional methods and/or attributes
 
     private List<Action> actions;
+    private Cell goalPosition;
 
     public Cell getGoalPosition() {
         return goalPosition;
     }
-
-    private Cell goalPosition;
 
     public CatchProblemSearch(S initialCatchState, Cell goalPosition) {
         super(initialCatchState);
@@ -32,12 +31,12 @@ public class CatchProblemSearch<S extends CatchState> extends Problem<S> {
     }
 
     @Override
-    public List<CatchState> executeActions(CatchState state) {
+    public List<S> executeActions(S state) {
         //TODO
-        List<CatchState> successors = new LinkedList<>();
+        List<S> successors = new LinkedList<>();
         for (Action action : actions) {
             if (action.isValid(state)) {
-                CatchState sucessor = (CatchState) state.clone();
+                S sucessor = (S) state.clone();
                 action.execute(sucessor);
                 successors.add(sucessor);
             }

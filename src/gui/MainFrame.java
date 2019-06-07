@@ -272,7 +272,6 @@ public class MainFrame extends JFrame implements GAListener {
                         LinkedList<Pair> pairs = agentSearch.getPairs();
                         for (Pair p : pairs) {
                             CatchState state = ((CatchState) agentSearch.getEnvironment()).clone();
-                            state.setGoal(p.getCell2().getLine(), p.getCell2().getColumn());
                             state.setCellCatch(p.getCell1().getLine(), p.getCell1().getColumn());
                             CatchProblemSearch problem = new CatchProblemSearch(state, p.getCell2());
                             Solution s = agentSearch.solveProblem(problem);
@@ -425,7 +424,6 @@ public class MainFrame extends JFrame implements GAListener {
                     LinkedList<Pair> pairs = agentSearch.getPairs();
                     for (Pair p : pairs) {
                         CatchState state = ((CatchState) agentSearch.getEnvironment()).clone();
-                        state.setGoal(p.getCell2().getLine(), p.getCell2().getColumn());
                         state.setCellCatch(p.getCell1().getLine(), p.getCell1().getColumn());
                         CatchProblemSearch problem = new CatchProblemSearch(state, p.getCell2());
                         Solution s = agentSearch.solveProblem(problem);

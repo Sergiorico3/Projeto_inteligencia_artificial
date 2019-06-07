@@ -1,22 +1,23 @@
 package ga;
 
 
+import java.util.Arrays;
+
 public abstract class IntVectorIndividual<P extends Problem, I extends IntVectorIndividual> extends Individual<P, I> {
     //TODO this class might require the definition of additional methods and/or attributes
 
-    public static final int ONE  = 1;
-    public static final int ZERO = 0;
-
     protected int[] genome;
 
-    public IntVectorIndividual(P problem, int size, double probls) {
+    public IntVectorIndividual(P problem, int size) {
         super(problem);
         genome = new int[size];
-
-        for(int i = 0; i < genome.length; i++){
-         genome[i] = (GeneticAlgorithm.random.nextDouble() < probls) ? ONE : ZERO;
+        int r;
+        for (int i = 0; i < genome.length; i++) {
+            r = GeneticAlgorithm.random.nextInt(size) + 1;
+            genome[i] = r;
         }
-      }
+        System.out.println(Arrays.toString(genome));
+    }
 
     public IntVectorIndividual(IntVectorIndividual<P, I> original) {
         super(original);
@@ -29,7 +30,7 @@ public abstract class IntVectorIndividual<P extends Problem, I extends IntVector
         return genome.length;
     }
 
-    public int getIndexof(int value){
+    public int getIndexof(int value) {
         for (int i = 0; i < genome.length; i++) {
             if (genome[i] == value)
                 return i;
