@@ -16,18 +16,26 @@ public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, Catc
     public double computeFitness() {
         Cell cell1;
         Cell cell2;
-         fitness=0;
+        fitness = 0;
 
         cell1 = problem.cellsBoxes.get(genome[0]);
 
-        fitness=getPairDistance(problem.cellCatch, problem.cellsBoxes.get(genome[0] -1));
+        fitness = getPairDistance(problem.cellCatch, problem.cellsBoxes.get(genome[0] - 1));
 
-        for (int i = 0; i < problem.cellsBoxes.size() ; i++) {
-            cell2 = problem.cellsBoxes.get(genome[i+1]-1);
+        for (int i = 0; i < problem.cellsBoxes.size(); i++) {
+            cell2 = problem.cellsBoxes.get(genome[i + 1] - 1);
 
-            fitness += getPairDistance(cell1,cell2);
+            fitness += getPairDistance(cell1, cell2);
         }
 
+        Cell c1 = problem.getCellCatch();
+        Cell c2 = problem.cellsBoxes.get(genome[0] - 1);
+
+        for (Pair pair : problem.getPairs()) {
+            if (pair.getCell1() == c1 && pair.getCell2() == c2) {
+                fitness += pair.getValue();
+            }
+        }
 
         return fitness;
     }
@@ -42,7 +50,7 @@ public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, Catc
         sb.append("fitness: ");
         sb.append(fitness);
         sb.append("\npath: ");
-        for (int i = 0; i <genome.length ; i++) {
+        for (int i = 0; i < genome.length; i++) {
             sb.append(genome[i]).append(" ");
         }
         return sb.toString();
