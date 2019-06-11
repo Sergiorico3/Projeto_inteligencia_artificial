@@ -31,9 +31,9 @@ public class CatchIndividual extends IntVectorIndividual<CatchProblemForGA, Catc
         Cell c1 = problem.getCellCatch();
         Cell c2 = problem.cellsBoxes.get(genome[0] - 1);
 
-        for (Pair pair : problem.getPairs()) {
-            if (pair.getCell1() == c1 && pair.getCell2() == c2) {
-                fitness += pair.getValue();
+        for (Pair p : problem.getPairs()) {
+            if (p.getCell1() == c1 && p.getCell2() == c2) {
+                fitness += p.getValue();
             }
         }
 

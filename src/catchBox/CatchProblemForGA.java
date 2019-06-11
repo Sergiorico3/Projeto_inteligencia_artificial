@@ -1,11 +1,8 @@
 package catchBox;
 
-import ga.GeneticAlgorithm;
 import ga.Problem;
 
-import java.lang.reflect.Array;
 import java.util.LinkedList;
-import java.util.Random;
 
 public class CatchProblemForGA implements Problem<CatchIndividual> {
     //TODO this class might require the definition of additional methods and/or attributes
@@ -35,7 +32,7 @@ public class CatchProblemForGA implements Problem<CatchIndividual> {
     @Override
     public String toString() {
         //TODO
-        return "Problema: " + problem + "\n";
+        return "Problema: " + this + "\n";
     }
 
     public Cell getCellCatch() {

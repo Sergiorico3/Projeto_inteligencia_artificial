@@ -12,12 +12,14 @@ public abstract class IntVectorIndividual<P extends Problem, I extends IntVector
         super(problem);
         genome = new int[size];
         int r;
-        for (int i = 0; i < (genome.length) - 1; i++) {
-            r = GeneticAlgorithm.random.nextInt(size) + 1;
-            if (!Arrays.asList(genome).contains(r)) {
+        for (int i = 0; i < genome.length - 1; i++) {
+
+            do{
+                r = GeneticAlgorithm.random.nextInt(size)+1;
                 genome[i] = r;
-                i++;
-            }
+            }while(!Arrays.asList(genome[i]).contains(r));
+
+            i++;
         }
 
         System.out.println(Arrays.toString(genome));

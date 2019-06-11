@@ -10,7 +10,7 @@ public class Mutation2<I extends IntVectorIndividual, P extends Problem<I>> exte
     }
 
     @Override
-    public void mutate(I ind) {
+    public void mutate(I ind) {         //SWAP
         //TODO
     }
 
