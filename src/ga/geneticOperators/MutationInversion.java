@@ -13,7 +13,7 @@ public class MutationInversion<I extends IntVectorIndividual, P extends Problem<
     private int[] parent;
 
     @Override
-    public void mutate(I ind) { //Inversion
+    public void mutate(I ind) { //Inversion mutation
 
         parent = new int[ind.getNumGenes()];
 
