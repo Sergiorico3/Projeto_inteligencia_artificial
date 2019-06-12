@@ -12,17 +12,28 @@ public abstract class IntVectorIndividual<P extends Problem, I extends IntVector
         super(problem);
         genome = new int[size];
         int r;
-        for (int i = 0; i < genome.length - 1; i++) {
+        for (int i = 0; i < genome.length; i++) {
 
             do{
                 r = GeneticAlgorithm.random.nextInt(size)+1;
-                genome[i] = r;
-            }while(!Arrays.asList(genome[i]).contains(r));
 
-            i++;
+            }while(verificaExiste(r,i));
+            genome[i] = r;
+
         }
 
         System.out.println(Arrays.toString(genome));
+    }
+
+    private boolean verificaExiste(int r, int j) {
+        for (int i = 0; i < j; i++) {
+            if(genome[i] == r)
+            {
+                return true;
+            }
+
+        }
+        return false;
     }
 
     public IntVectorIndividual(IntVectorIndividual<P, I> original) {

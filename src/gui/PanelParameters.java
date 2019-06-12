@@ -29,11 +29,11 @@ public class PanelParameters extends PanelAtributesValue {
     JComboBox comboBoxSelectionMethods = new JComboBox(selectionMethods);
     JTextField textFieldTournamentSize = new JTextField(TOURNAMENT_SIZE, TEXT_FIELD_LENGHT);
 
-    String[] recombinationMethods = {"PMX", "TODO", "TODO"};
+    String[] recombinationMethods = {"PMX", "OrderOne", "TODO"};
     JComboBox comboBoxRecombinationMethods = new JComboBox(recombinationMethods);
     JTextField textFieldProbRecombination = new JTextField(PROB_RECOMBINATION, TEXT_FIELD_LENGHT);
 
-    String[] mutationMethods = {"Insert", "TODO", "TODO"};
+    String[] mutationMethods = {"Insert", "Mutation Swap", "Mutation Inversion"};
     JComboBox comboBoxMutationMethods = new JComboBox(mutationMethods);
     JTextField textFieldProbMutation = new JTextField(PROB_MUTATION, TEXT_FIELD_LENGHT);
 
@@ -114,10 +114,10 @@ public class PanelParameters extends PanelAtributesValue {
         switch (comboBoxRecombinationMethods.getSelectedIndex()) {
             case 0:
                 return new RecombinationPartialMapped<>(recombinationProb);
+            case 2:
+                return new RecombinationOrderOne<>(recombinationProb);
             case 1:
                 return new Recombination3<>(recombinationProb);
-            case 2:
-                return new Recombination2<>(recombinationProb);
         }
         return null;
     }
@@ -126,11 +126,11 @@ public class PanelParameters extends PanelAtributesValue {
         double mutationProbability = Double.parseDouble(textFieldProbMutation.getText());
         switch (comboBoxMutationMethods.getSelectedIndex()) {
             case 0:
-                return new Mutation3<>(mutationProbability);
-            case 1:
                 return new MutationInsert<>(mutationProbability);
+            case 1:
+                return new MutationSwap<>(mutationProbability);
             case 2:
-                return new Mutation2<>(mutationProbability);
+                return new MutationInversion<>(mutationProbability);
         }
         return null;
     }
