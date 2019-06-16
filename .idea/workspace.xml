@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685de2a6-20d4-49f9-8ea7-518c34ceca80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjCatch/catchBox/CatchExperimentsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjCatch/catchBox/CatchExperimentsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjCatch/ga/geneticOperators/Recombination3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjCatch/gui/PanelParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjCatch/gui/PanelParameters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOneCut.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/catchBox/CatchExperimentsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/catchBox/CatchExperimentsFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/MutationInversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/geneticOperators/MutationInversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/MutationSwap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/geneticOperators/MutationSwap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/Recombination3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ga/geneticOperators/RecombinationUniform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOrderOne.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/PanelParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/PanelParameters.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +56,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecombinationUniform.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecombinationUniform.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/RecombinationUniform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="323">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecombinationOneCut.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOneCut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3037#3038#0" expanded="true" />
+                <element signature="e#3080#3081#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PanelParameters.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/gui/PanelParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -129,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/catchBox/BasicCatchState.java" />
         <option value="$PROJECT_DIR$/src/catchBox/CatchProblem.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Mutation.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/MutationScrumble.java" />
@@ -174,12 +191,13 @@
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Mutation2.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Mutation3.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Recombination2.java" />
-        <option value="$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOrderOne.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/MutationSwap.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/MutationInversion.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/Recombination3.java" />
-        <option value="$PROJECT_DIR$/src/gui/PanelParameters.java" />
         <option value="$PROJECT_DIR$/src/ga/geneticOperators/RecombinationUniform.java" />
+        <option value="$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOrderOne.java" />
+        <option value="$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOneCut.java" />
+        <option value="$PROJECT_DIR$/src/gui/PanelParameters.java" />
       </list>
     </option>
   </component>
@@ -386,7 +404,7 @@
       <workItem from="1560346918738" duration="851000" />
       <workItem from="1560373599006" duration="1295000" />
       <workItem from="1560607595129" duration="213000" />
-      <workItem from="1560698840955" duration="6124000" />
+      <workItem from="1560698840955" duration="6384000" />
     </task>
     <task id="LOCAL-00001" summary="IntVectorIndividual update">
       <created>1560260705392</created>
@@ -416,11 +434,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560382348127</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uniform crossover feito">
+      <created>1560705640472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560705640472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58819000" />
+    <option name="totallyTimeSpent" value="59079000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,11 +470,11 @@
       <window_info anchor="right" id="Maven Projects" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="15" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="17" weight="0.32960895" />
       <window_info id="Capture Tool" order="10" />
       <window_info id="Designer" order="8" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15565032" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.15565032" />
       <window_info anchor="right" id="Database" order="12" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -502,7 +527,8 @@
     <MESSAGE value="IntVectorIndividual update" />
     <MESSAGE value="RecombinationOrderOne update" />
     <MESSAGE value="Mutation Inversion update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mutation Inversion update" />
+    <MESSAGE value="Uniform crossover feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uniform crossover feito" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -701,18 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOrderOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3037#3038#0" expanded="true" />
-            <element signature="e#3080#3081#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/RecombinationPartialMapped.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -727,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/PanelParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="118" column="18" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/MutationSwap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -743,8 +750,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/RecombinationUniform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ga/geneticOperators/RecombinationOneCut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3037#3038#0" expanded="true" />
+            <element signature="e#3080#3081#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/PanelParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -56,7 +56,7 @@ public class CatchExperimentsFactory extends ExperimentsFactory {
                 recombination = new RecombinationUniform<>(recombinationProbability);
                 break;
             case "TODO2": //TODO
-                recombination = new RecombinationOrderOne<>(recombinationProbability);
+                recombination = new RecombinationOneCut<>(recombinationProbability);
                 break;
         }
 
