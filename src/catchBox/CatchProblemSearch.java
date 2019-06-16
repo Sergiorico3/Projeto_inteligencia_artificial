@@ -8,8 +8,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class CatchProblemSearch<S extends CatchState> extends Problem<S> {
-    //TODO this class might require the definition of additional methods and/or attributes
-
     private List<Action> actions;
     private Cell goalPosition;
 
@@ -32,7 +30,6 @@ public class CatchProblemSearch<S extends CatchState> extends Problem<S> {
 
     @Override
     public List<S> executeActions(S state) {
-        //TODO
         List<S> successors = new LinkedList<>();
         for (Action action : actions) {
             if (action.isValid(state)) {

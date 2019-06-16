@@ -37,7 +37,6 @@ public class MutationInversion<I extends IntVectorIndividual, P extends Problem<
 
     @Override
     public String toString() {
-        //TODO
-        return "0";
+        return "MutationInversion";
     }
 }

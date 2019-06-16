@@ -6,7 +6,6 @@ import ga.Problem;
 
 public class RecombinationUniform<I extends IntVectorIndividual, P extends Problem<I>> extends Recombination<I, P> {
 
-    //TODO this class might require the definition of additional methods and/or attributes
 
     public RecombinationUniform(double probability) {
         super(probability);

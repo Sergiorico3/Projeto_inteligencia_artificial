@@ -5,7 +5,6 @@ import ga.Problem;
 import java.util.LinkedList;
 
 public class CatchProblemForGA implements Problem<CatchIndividual> {
-    //TODO this class might require the definition of additional methods and/or attributes
     protected LinkedList<Pair> pairs;
     protected Cell cellCatch;
     protected Cell door;
@@ -31,7 +30,6 @@ public class CatchProblemForGA implements Problem<CatchIndividual> {
 
     @Override
     public String toString() {
-        //TODO
         return "Problema: " + this + "\n";
     }
 
