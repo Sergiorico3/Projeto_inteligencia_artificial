@@ -15,6 +15,7 @@ public class MutationSwap<I extends IntVectorIndividual, P extends Problem<I>> e
     @Override
     public void mutate(I ind) {         //SWAP
         int l=ind.getNumGenes();
+
         //get 2 random integers between 0 and size of array
         int r1 = GeneticAlgorithm.random.nextInt(l);
         int r2 = GeneticAlgorithm.random.nextInt(l);

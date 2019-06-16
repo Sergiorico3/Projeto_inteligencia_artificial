@@ -10,33 +10,28 @@ public class MutationInversion<I extends IntVectorIndividual, P extends Problem<
         super(probability);
     }
 
-    private int[] parent;
-
     @Override
     public void mutate(I ind) { //Inversion mutation
+        int l=ind.getNumGenes();
+        int startPos = 0;
+        int endPos = 0;
 
-        parent = new int[ind.getNumGenes()];
-
-        int l = parent.length;
-        for(int k = 0; k < 5; k++){//repeat process 5 times
-            //get 2 random integers between 0 and size of array
-            int r1 = GeneticAlgorithm.random.nextInt(l);
-            int r2 = GeneticAlgorithm.random.nextInt(l);
-            //to make sure the r1 < r2
-            while(r1 >= r2)
-            {
-                r1 = GeneticAlgorithm.random.nextInt(l);
-                r2 = GeneticAlgorithm.random.nextInt(l);
+        // Loop forever until we have suitable cut point numbers
+        while (true){
+            startPos = GeneticAlgorithm.random.nextInt(l);
+            endPos = GeneticAlgorithm.random.nextInt(l);
+            if(startPos < endPos){
+                break;
             }
-            //this code inverts (i.e. reverses) elements between r1..r2 inclusive
-            int mid = r1 + ((r2 + 1) - r1) / 2;
-            int endCount = r2;
-            for (int i = r1; i < mid; i++) {
-                int tmp = parent[i];
-                parent[i] = parent[endCount];
-                parent[endCount] = tmp;
-                endCount--;
-            }
+        }
+        // Reverse the numbers between cut off points
+        int reverse = endPos;
+        int temp = 0;
+        for(int i = startPos; i < reverse; i++){
+            temp = ind.getGene(i+1);
+            ind.setGene(i+1, ind.getGene(reverse));
+            ind.setGene(reverse,temp);
+            reverse--;
         }
     }
 

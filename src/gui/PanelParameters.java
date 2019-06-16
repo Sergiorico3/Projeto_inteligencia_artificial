@@ -29,7 +29,7 @@ public class PanelParameters extends PanelAtributesValue {
     JComboBox comboBoxSelectionMethods = new JComboBox(selectionMethods);
     JTextField textFieldTournamentSize = new JTextField(TOURNAMENT_SIZE, TEXT_FIELD_LENGHT);
 
-    String[] recombinationMethods = {"PMX", "OrderOne", "TODO"};
+    String[] recombinationMethods = {"PMX", "OrderOne", "Uniform"};
     JComboBox comboBoxRecombinationMethods = new JComboBox(recombinationMethods);
     JTextField textFieldProbRecombination = new JTextField(PROB_RECOMBINATION, TEXT_FIELD_LENGHT);
 
@@ -114,10 +114,10 @@ public class PanelParameters extends PanelAtributesValue {
         switch (comboBoxRecombinationMethods.getSelectedIndex()) {
             case 0:
                 return new RecombinationPartialMapped<>(recombinationProb);
-            case 2:
-                return new RecombinationOrderOne<>(recombinationProb);
             case 1:
-                return new Recombination3<>(recombinationProb);
+                return new RecombinationOrderOne<>(recombinationProb);
+            case 2:
+                return new RecombinationUniform<>(recombinationProb);
         }
         return null;
     }
