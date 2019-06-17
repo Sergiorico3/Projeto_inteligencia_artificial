@@ -4,16 +4,16 @@ import ga.GeneticAlgorithm;
 import ga.IntVectorIndividual;
 import ga.Problem;
 
-public class RecombinationOneCut<I extends IntVectorIndividual, P extends Problem<I>> extends Recombination<I, P> {
+public class RecombinationOneOrder<I extends IntVectorIndividual, P extends Problem<I>> extends Recombination<I, P> {
 
 
-    public RecombinationOneCut(double probability) {
+    public RecombinationOneOrder(double probability) {
         super(probability);
     }
 
 
     @Override
-    public void recombine(I ind1, I ind2) {         //One Cut crossover
+    public void recombine(I ind1, I ind2) {         //One order crossover
         int cut = GeneticAlgorithm.random.nextInt(ind1.getNumGenes());
         for (int i = 0; i < cut; i++) {
             ind1.swapGenes(ind2, i);
@@ -22,6 +22,6 @@ public class RecombinationOneCut<I extends IntVectorIndividual, P extends Proble
 
     @Override
     public String toString(){
-        return "OneCut";
+        return "OneOrder";
     }    
 }
