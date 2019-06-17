@@ -350,3 +350,9 @@ Population size:	Max generations:	Selection:	Recombination:	Recombination prob.:
 100	1000	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
 100	1000	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
 100	1000	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+50	2000	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+50	2000	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+50	2000	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
