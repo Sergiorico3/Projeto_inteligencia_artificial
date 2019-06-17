@@ -1,0 +1,181 @@
+Population size:	Max generations:	Selection:	Recombination:	Recombination prob.:	Mutation:	Mutation prob.:		Fitness:
+50	100	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+50	100	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+50	100	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+50	100	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+50	100	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+50	100	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+50	100	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+50	100	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+50	100	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+50	100	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+50	100	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+50	100	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+50	100	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+50	100	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+50	100	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+50	100	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+50	100	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+50	100	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+50	500	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+50	500	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+50	500	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+50	500	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+50	500	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+50	500	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+50	500	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+50	500	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+50	500	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+50	500	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+50	500	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+50	500	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+50	500	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+50	500	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+50	500	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+50	500	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+50	500	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+50	500	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+50	1000	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+50	1000	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+50	1000	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+50	1000	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+50	1000	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+50	1000	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+50	1000	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+50	1000	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+50	1000	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+50	1000	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+50	1000	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+50	1000	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+50	1000	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+50	1000	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+50	1000	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+50	1000	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+50	1000	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+50	1000	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+50	2000	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+50	2000	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+50	2000	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+50	2000	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+50	2000	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+50	2000	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+50	2000	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+50	2000	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+50	2000	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+50	2000	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+50	2000	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+50	2000	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+50	2000	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+100	100	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+100	100	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+100	100	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+100	100	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+100	100	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+100	100	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+100	100	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+100	100	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+100	100	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+100	100	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+100	100	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+100	100	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+100	100	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+100	100	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+100	100	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+100	100	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+100	100	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+100	100	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+100	500	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+100	500	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+100	500	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+100	500	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+100	500	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+100	500	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+100	500	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+100	500	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+100	500	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+100	500	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+100	500	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+100	500	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+100	500	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+100	500	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+100	500	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+100	500	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+100	500	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+100	500	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+100	1000	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+100	1000	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+100	1000	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+100	1000	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+100	1000	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+100	1000	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+100	1000	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+100	1000	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+100	1000	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+100	1000	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+100	1000	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+100	1000	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+100	1000	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+100	1000	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+100	1000	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+100	1000	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+100	1000	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+100	1000	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+100	2000	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+100	2000	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+100	2000	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+100	2000	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+100	2000	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+100	2000	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+100	2000	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+100	2000	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+100	2000	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+100	2000	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+100	2000	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+100	2000	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+100	2000	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+100	2000	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+100	2000	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+100	2000	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+100	2000	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+100	2000	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+200	100	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+200	100	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+200	100	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+200	100	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+200	100	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+200	100	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+200	100	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+200	100	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+200	100	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+200	100	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+200	100	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+200	100	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+200	100	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+200	100	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+200	100	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+200	100	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+200	100	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+200	100	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
+200	500	Tournament(4)	PMX	0.7	Insert	0.3		16.0
+200	500	Tournament(4)	PMX	0.7	MutationInversion	0.3		16.0
+200	500	Tournament(4)	PMX	0.7	Mutation Swap	0.3		16.0
+200	500	Tournament(4)	PMX	0.8	Insert	0.3		16.0
+200	500	Tournament(4)	PMX	0.8	MutationInversion	0.3		16.0
+200	500	Tournament(4)	PMX	0.8	Mutation Swap	0.3		16.0
+200	500	Tournament(4)	Cycle	0.7	Insert	0.3		16.0
+200	500	Tournament(4)	Cycle	0.7	MutationInversion	0.3		16.0
+200	500	Tournament(4)	Cycle	0.7	Mutation Swap	0.3		16.0
+200	500	Tournament(4)	Cycle	0.8	Insert	0.3		16.0
+200	500	Tournament(4)	Cycle	0.8	MutationInversion	0.3		16.0
+200	500	Tournament(4)	Cycle	0.8	Mutation Swap	0.3		16.0
+200	500	Tournament(4)	OrderOne	0.7	Insert	0.3		16.0
+200	500	Tournament(4)	OrderOne	0.7	MutationInversion	0.3		16.0
+200	500	Tournament(4)	OrderOne	0.7	Mutation Swap	0.3		16.0
+200	500	Tournament(4)	OrderOne	0.8	Insert	0.3		16.0
+200	500	Tournament(4)	OrderOne	0.8	MutationInversion	0.3		16.0
+200	500	Tournament(4)	OrderOne	0.8	Mutation Swap	0.3		16.0
